@@ -9,7 +9,7 @@
         -->
         {{ if ge $categoryCount 1 }}
             <li>
-                {{ $categoryMenu := (where .Site.Menus.main "Name" "Categories") }}
+                {{ $categoryMenu := (where .Site.Menus.main "Name" "я") }}
                 {{ if ne (len $categoryMenu) 0 }}
                     {{ $categoryMenu := index $categoryMenu 0 }}
 

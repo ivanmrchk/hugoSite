@@ -3,13 +3,11 @@
     {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
-      {{ $paginator := .Paginate .Data.Pages }}
-      {{ range .Paginator.Pages }}
-          {{ .Render "content-list" }}
-      {{ end }}
+        {{ range first 1 (where .Site.Pages "Type" "post") }}
+            {{ .Render "content-single" }}
 
-      {{ partial "pagination" . }}
-
+            {{ partial "share-menu" . }}
+        {{ end }}
     </div>
     {{ partial "sidebar" . }}
 {{ partial "footer" . }}

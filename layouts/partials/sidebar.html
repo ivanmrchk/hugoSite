@@ -35,7 +35,7 @@
   <section id="recent-posts">
     <div class="mini-posts">
       <header>
-        <h3>Recent Posts</h3>
+        <h3>Новые</h3>
       </header>
       <div class="posts-container">
         {{ $.Scratch.Set "recentPosts" .Site.Pages }}
@@ -69,7 +69,7 @@
           {{ else }}
             "/post/"
           {{ end }}
-        class="button">View more posts</a>
+        class="button">еще</a>
       {{ end }}
     </div>
   </section>
@@ -81,7 +81,7 @@
     <section id="categories">
       <header>
         <h3>
-          <a href="/categories/">Categories</a>
+          <a href="/categories/">Категории</a>
         </h3>
       </header>
         {{ if .Site.Params.categoriesByCount }}
@@ -111,9 +111,9 @@
   <!-- About -->
   {{ with .Site.Params.intro.about }}
     <section id="mini-bio">
-      <h3>About</h1>
+      <h3>Про меня</h1>
       <p>{{ . | safeHTML }}</p>
-      <a href="/about/" class="button">Learn More</a>
+      <a href="/about/" class="button">Еще</a>
     </section>
   {{ end }}
 
@@ -140,7 +140,7 @@
           {{ .Site.Title }}
         {{ end }}
       {{end}}.
-      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+      Сделанно с помощью  <a href="//gohugo.io" target="_blank">Hugo</a>
     </p>
   </section>
 </section>

@@ -15,7 +15,7 @@
   </form>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
-<h2>Comments</h2>
+<h2>Комментарии</h2>
 
 {{ $comments := readDir "data/comments" }}
 {{ $.Scratch.Add "hasComments" 0 }}
@@ -44,5 +44,5 @@
 {{ end }}
 
 {{ if eq ($.Scratch.Get "hasComments") 0 }}
-  <p>Nothing yet.</p>
+  <p>Ничего пока нет</p>
 {{ end }}
