@@ -9,6 +9,7 @@ featuredpath = "date"
 linktitle = ""
 title = "Библия как оружие"
 type = "post"
+draft = "true"
 +++
 ## Бытие 3 глава
 
