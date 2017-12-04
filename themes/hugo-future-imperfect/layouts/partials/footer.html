@@ -18,6 +18,10 @@
       <script src="{{ "js/util.js" | relURL }}"></script>
       <script src="{{ "js/main.js" | relURL }}"></script>
       <script src="{{ "js/backToTop.js" | relURL }}"></script>
+      <script>
+
+        $('ul header h1').text('категории')
+      </script>
     {{ end }}
 
     {{ if ne ($.Scratch.Get "jsFiles") false }}

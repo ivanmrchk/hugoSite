@@ -8,9 +8,10 @@ disqusShortname = "shortname"
 googleAnalytics = ""
 pluralizeListTitles = false
 
+
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = "В отношениях с Богом, самое главное, это отношения."
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Иван Марченко"
   # Sets where "View More Posts" links
@@ -61,9 +62,9 @@ pluralizeListTitles = false
 [params.intro]
   header    = "Иван Марченко"
 
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "Свидетельство должно быть не только в церкви"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "Скоро напишу..."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
@@ -88,11 +89,6 @@ pluralizeListTitles = false
   identifier = "fa fa-home"
   weight = 1
 
-# [[menu.main]]
-#   name = "О мне"
-#   url = "/about/"
-#   identifier = "fa fa-id-card-o"
-#   weight = 2
 
 [[menu.main]]
   name = "Блог"
@@ -100,26 +96,36 @@ pluralizeListTitles = false
   identifier = "fa fa-newspaper-o"
   weight = 2
 
+[[menu.main]]
+  name = "О мне"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
+  weight = 3
 
 
 [[menu.main]]
   name = "Категории"
   url = "/categories/"
   identifier = "fa fa-sitemap"
-  weight = 3
+  weight = 4
 
-# [[menu.main]]
-#   name = "Контакты"
-#   url = "/contact/"
-#   identifier = "fa fa-envelope-o"
-#   weight = 6
+[[menu.main]]
+  name = "Контакты"
+  url = "/contact/"
+  identifier = "fa fa-envelope-o"
+  weight = 5
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
 [social]
+  facebook        = "https://www.facebook.com/ivan.a.marchenko"
+  instagram       = "https://www.instagram.com/imarchenko/"
+  twitter         = "https://twitter.com/iiivan_m?lang=en"
+  telegram        = "https://t.me/ivanmrchk"
+  github          = "https://github.com/ivanmrchk"
+  email           = "imarchenko@gmailc.com"
   # Coding Communities
-  github          = "jpescador/hugo-future-imperfect"
   gitlab          = ""
   stackoverflow   = "" # User Number
   bitbucket       = ""
@@ -127,35 +133,31 @@ pluralizeListTitles = false
   codepen         = ""
   # Visual Art Communities
   deviantart      = ""
-  flickr          = "example"
+  flickr          = ""
   behance         = ""
   dribbble        = ""
   # Publishing Communities
   wordpress       = ""
   medium          = ""
   # Professional/Business Oriented Communities
-  linkedin        = "example"
+  linkedin        = ""
   foursquare      = ""
   xing            = ""
   slideshare      = ""
   # Social Networks
-  facebook        = "example"
   googleplus      = ""
-  reddit          = "example"
+  reddit          = ""
   quora           = ""
   youtube         = ""
   vimeo           = ""
   whatsapp        = "" # WhatsApp Number
-    # WeChat and QQ need testing.
-    wechat          = ""
-    qq              = "" # User ID Number
-  instagram       = "example"
+  # WeChat and QQ need testing.
+  wechat          = ""
+  qq              = "" # User ID Number
   tumblr          = ""
-  twitter         = "example"
   skype           = ""
   snapchat        = ""
-  pinterest       = "example"
-  telegram        = "example"
+  pinterest       = ""
   vine            = ""
+
   # Email
-  email           = "example"
