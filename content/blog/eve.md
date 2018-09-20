@@ -9,7 +9,7 @@ featuredpath = "date"
 linktitle = ""
 title = "Плоть от плоти моей"
 type = "post"
-draft = "false"
+draft = "true"
 +++
 ## Адам и Ева
 
